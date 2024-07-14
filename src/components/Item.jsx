@@ -11,7 +11,7 @@ function Item(props) {
 
 
         <div >
-            <div className=' m-2 my-3 bg-slate-200 rounded-lg '>
+            <div className=' m-2 my-3 bg-slate-200 rounded-lg max-h-[600px] md:h-[510px]'>
                 <img className='w-full h-auto p-1' src={props.image} alt="" />
                 <div className='text-black p-2 animate-fade-right animate-once animate-duration-[1500ms] animate-delay-900 animate-ease-in-out'>
                     <h1 className='text-xl my-1 uppercase animate-once animate-duration-[2000ms] animate-delay-500 animate-ease-in-out'>{props.name}</h1>

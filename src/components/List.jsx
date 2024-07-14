@@ -6,7 +6,7 @@ function List() {
         <div>
 
 
-            <div>
+            <div className='md:container'>
                 <Link to="/" className="mr-4 text-gray-500 hover:text-white">Home</Link>
                 <Link to="/about" className="mr-4 text-gray-500 hover:text-white">About</Link>
                 <Link to="/project  " className="mr-4 text-gray-500 hover:text-white">Projects</Link>

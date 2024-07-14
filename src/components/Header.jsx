@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <header className="bg-[#fafafb] p-4 shadow-lg rounded-lg">
-            <nav className="container mx-auto flex justify-between items-center">
+            <nav className="container md:px-6 mx-auto flex justify-between items-center">
 
                 {isDesktop ? <List /> : <Menu />}
                 <div>
