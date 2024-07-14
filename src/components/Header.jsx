@@ -12,7 +12,11 @@ const Header = () => {
             <nav className="container mx-auto flex justify-between items-center">
 
                 {isDesktop ? <List /> : <Menu />}
-                <div className="font-bold text-xl">SHUBHAM TIWARI</div>
+                <div>
+                    <Link to="/" className="font-bold text-xl">SHUBHAM Tiwari</Link>
+
+                    <p className=' text-gray-500 text-[10px] text-right'>Frontened Developer</p>
+                </div>
             </nav>
         </header>
     );

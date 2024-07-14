@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div className=" mx-auto  text-center bg-gradient-to-r from-slate-900 to-slate-700 text-white">
-            <div className=' pt-8 px-4 container animate-fade-up animate-delay-300 animate-ease-in '>
+            <div className=' py-8 px-4 container mx-auto animate-fade-up animate-delay-300 animate-ease-in '>
                 <h1 className="text-3xl font-bold pb-3 animate-fade-left animate-delay-300 animate-ease-in">About Me</h1>
                 <p className='text-left animate-fade-up animate-delay-300 animate-ease-in'>Hello! I'm Shubham Tiwari, a passionate frontend developer with a strong foundation in modern web technologies. I specialize in creating engaging, responsive, and user-friendly web applications. With a keen eye for detail and a commitment to delivering high-quality work, I aim to enhance user experiences through innovative design and efficient code.</p>
 
@@ -27,8 +27,7 @@ const About = () => {
 
                 Let's Connect
                 I am always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out. Let's create something amazing together!
-                <h1 >About Us</h1>
-                <p className="mt-4">This is the about page.</p>
+
             </div>
         </div>
     );

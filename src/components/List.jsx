@@ -9,7 +9,8 @@ function List() {
             <div>
                 <Link to="/" className="mr-4 text-gray-500 hover:text-white">Home</Link>
                 <Link to="/about" className="mr-4 text-gray-500 hover:text-white">About</Link>
-
+                <Link to="/project  " className="mr-4 text-gray-500 hover:text-white">Projects</Link>
+                <Link to="/skills  " className="mr-4 text-gray-500 hover:text-white">Skills</Link>
                 <Link to="/contact  " className="mr-4 text-gray-500 hover:text-white">Contact</Link>
             </div>
 
