@@ -10,7 +10,6 @@ const Footer = () => {
                 <div className='container mx-auto flex flex-col items-center py-2 ' >
                     <div className='text-black font-medium '>PORTFOLIO</div>
                     <div>
-
                         <ul className='flex flex-col items-center py-2'>
                             <h1 className='underline py-1'>Quick Link</h1>
                             <hr />

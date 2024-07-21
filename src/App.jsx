@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Project from './pages/Project';
 import Skills from './pages/Skills';
+import ProjectDetails from './pages/ProjectDetails';
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="project" element={<Project />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/project/item/:id" element={<ProjectDetails />} />
+
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

@@ -6,12 +6,14 @@ function List() {
         <div>
 
 
-            <div className='md:container'>
-                <Link to="/" className="mr-4 text-gray-500 hover:text-white">Home</Link>
-                <Link to="/about" className="mr-4 text-gray-500 hover:text-white">About</Link>
-                <Link to="/project  " className="mr-4 text-gray-500 hover:text-white">Projects</Link>
-                <Link to="/skills  " className="mr-4 text-gray-500 hover:text-white">Skills</Link>
-                <Link to="/contact  " className="mr-4 text-gray-500 hover:text-white">Contact</Link>
+            <div className='md:container xl:text-[15px]'>
+                <Link to="/" className="mr-7 text-black hover:text-gray-500 ">Home</Link>
+                <Link to="/about" className="mr-7 text-black hover:text-gray-500 ">About</Link>
+
+                <Link to="/project  " className="mr-7 text-black hover:text-gray-500 ">Projects</Link>
+
+                <Link to="/skills  " className="mr-7 text-black hover:text-gray-500 ">Skills</Link>
+                <Link to="/contact  " className="mr-7 text-black hover:text-gray-500 ">Contact</Link>
             </div>
 
         </div>

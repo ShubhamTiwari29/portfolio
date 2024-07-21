@@ -13,9 +13,9 @@ const Header = () => {
 
                 {isDesktop ? <List /> : <Menu />}
                 <div>
-                    <Link to="/" className="font-bold text-xl">SHUBHAM Tiwari</Link>
+                    <Link to="/" className="font-bold xl:text-2xl">SHUBHAM Tiwari</Link>
 
-                    <p className=' text-gray-500 text-[10px] text-right'>Frontened Developer</p>
+                    <p className=' text-gray-500 text-[10px] xl:text-[12px]  text-right'>Frontened Developer</p>
                 </div>
             </nav>
         </header>
