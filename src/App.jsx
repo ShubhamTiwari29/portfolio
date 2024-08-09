@@ -8,20 +8,33 @@ import Footer from './components/Footer';
 import Project from './pages/Project';
 import Skills from './pages/Skills';
 import ProjectDetails from './pages/ProjectDetails';
+import ContextProvider from './Context/Context';
+
+
+import Login from './pages/Login';
+
+import AdminDashboard from './pages/Admin/AdminDashboard';
 
 const App = () => {
   return (
     <Router>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/project" element={<Project />} />
-        <Route path="/project/item/:id" element={<ProjectDetails />} />
+      <ContextProvider>
+        <Routes>
 
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/project/item/:id" element={<ProjectDetails />} />
+
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/admin/*" element={<AdminDashboard />} />
+
+
+        </Routes>
+      </ContextProvider>
       <Footer />
     </Router>
   );

@@ -1,8 +1,4 @@
 import React from 'react';
-
-
-
-
 import DownloadCV from '../components/Download';
 import Social from '../components/Social';
 const Home = () => {

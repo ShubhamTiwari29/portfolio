@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaList } from "react-icons/fa6";
+import { FiMenu } from "react-icons/fi";
 
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Menu = () => {
                 onClick={toggleMenu}
                 className="p-2  border rounded bg-gray-200 hover:bg-gray-300"
             >
-                <FaList />
+                <FiMenu />
             </button>
             {isOpen && (
                 <ul
@@ -26,9 +27,8 @@ const Menu = () => {
                     <li className="px-4 py-2 hover:bg-gray-100"><Link to="/project  " className="mr-4 text-gray-500 hover:text-white"><button onClick={toggleMenu}>Project</button></Link></li>
                     <li className="px-4 py-2 hover:bg-gray-100"><Link to="/skills  " className="mr-4 text-gray-500 hover:text-white"><button onClick={toggleMenu}>Skills</button></Link></li>
                     <li className="px-4 py-2 hover:bg-gray-100"><Link to="/about" className="mr-4 text-gray-500 hover:text-white"><button onClick={toggleMenu}>About</button></Link></li>
-
-
                     <li className="px-4 py-2 hover:bg-gray-100"><Link to="/contact  " className="mr-4 text-gray-500 hover:text-white"><button onClick={toggleMenu}>Contact</button></Link></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><Link to="/login  " className="mr-4 text-gray-500 hover:text-white"><button onClick={toggleMenu}>Login</button></Link></li>
 
                 </ul>
             )}

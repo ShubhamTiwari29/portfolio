@@ -5,8 +5,8 @@ const About = () => {
         <div className=" mx-auto   bg-gradient-to-r from-slate-900 to-slate-700 text-white">
             <div className=' py-8 px-4 md:container  mx-auto animate-fade-up animate-delay-300 animate-ease-in '>
 
-                <h1 className="text-3xl font-bold pb-3  animate-fade-left animate-delay-300 animate-ease-in text-center">About Me</h1>
-                <hr className='w-[28%] mx-auto border-solid pb-2 mb-3 border-white font-extrabold' />
+                <h1 className="text-3xl font-bold mb-10 animate-fade-left animate-delay-300 animate-ease-in text-center">About Me</h1>
+
 
                 <div className='xl:bg-gradient-to-r from-slate-900 to-slate-700 md:rounded-md xl:pt-5 xl:pb-7 xl:mb-9 xl:px-7 xl:shadow-xl '>
                     <p className='text-left animate-fade-up animate-delay-300 animate-ease-in text-gray-300  mb-2'>Hello! I'm Shubham Tiwari, a passionate frontend developer with a strong foundation in modern web technologies. I specialize in creating engaging, responsive, and user-friendly web applications. With a keen eye for detail and a commitment to delivering high-quality work, I aim to enhance user experiences through innovative design and efficient code.</p>
@@ -29,8 +29,7 @@ const About = () => {
                     <h2 className='text-2xl py-3 animate-fade-left animate-delay-300 animate-ease-in'>My Projects</h2>
                     <p className='text-left animate-fade-up animate-delay-300 animate-ease-in text-gray-300 mb-2'>Throughout my career, I have worked on various projects, ranging from small personal websites to complex web applications. Each project has taught me something new and helped me grow as a developer. I take pride in my ability to adapt to different challenges and find innovative solutions.</p>
 
-                    Let's Connect
-                    I am always open to new opportunities and collaborations. Whether you have a project in mind or just want to connect, feel free to reach out. Let's create something amazing together!
+
                 </div>
 
             </div>
