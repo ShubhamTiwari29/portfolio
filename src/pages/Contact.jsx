@@ -53,7 +53,7 @@ function Contact() {
 
     return (
         <div className='bg-gradient-to-r from-slate-900 to-slate-700'>
-            <div className="mx-auto lg:mx-40 py-10 h-auto md:min-h-[70vh] flex flex-col lg:flex-row animate-fade-right animate-once animate-duration-[1500ms] animate-delay-900 animate-ease-in-out">
+            <div className="mx-auto lg:container  py-10 h-auto md:min-h-[70vh] flex flex-col lg:flex-row animate-fade-right animate-once animate-duration-[1500ms] animate-delay-900 animate-ease-in-out">
 
                 {/* Left Side: Contact Details */}
                 <div className="md:w-1/2 p-5 my-4 h-auto mx-auto rounded-md items-center shadow-2xl bg-slate-100 text-black animate-fade-right animate-once animate-duration-[1500ms] animate-delay-900 animate-ease-in-out">
