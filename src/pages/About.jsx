@@ -1,6 +1,18 @@
 import React from 'react';
+import BottomNevigation from '../components/BottomNevigation';
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+    const navigate = useNavigate();
+    const handleLeftClick = () => {
+
+        navigate('/skills')
+    };
+
+    const handleRightClick = () => {
+
+        navigate('/contact')
+    };
     return (
         <div className=" mx-auto   bg-gradient-to-r from-slate-900 to-slate-700 text-white">
             <div className=' py-8 px-4 md:container  mx-auto animate-fade-up animate-delay-300 animate-ease-in '>
@@ -33,6 +45,10 @@ const About = () => {
                 </div>
 
             </div>
+            <div className='md:hidden pb-3'><BottomNevigation
+                onLeftClick={handleLeftClick}
+                onRightClick={handleRightClick}
+            /></div>
         </div>
     );
 };

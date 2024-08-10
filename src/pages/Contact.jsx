@@ -73,7 +73,7 @@ function Contact() {
                             />
                         </div>
                         <div>
-                            <label className="blocktext-sm font-medium text-gray-700">Contact Number:</label>
+                            <label className="text-sm font-medium text-gray-700">Contact Number:</label>
                             <input
                                 type="tel"
                                 name="contactNumber"

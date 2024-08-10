@@ -94,7 +94,7 @@ function Login() {
                                 className="absolute inset-y-0 right-0 pr-3 pt-6 flex items-center cursor-pointer"
                                 onClick={togglePassword}
                             >
-                                {showPassword ? <IoMdEyeOff size={20} /> : <IoMdEye size={20} />}
+                                {showPassword ? <IoMdEye size={20} /> : <IoMdEyeOff size={20} />}
                             </div>
                         </div>
                         <button

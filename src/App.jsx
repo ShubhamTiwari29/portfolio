@@ -14,11 +14,13 @@ import ContextProvider from './Context/Context';
 import Login from './pages/Login';
 
 import AdminDashboard from './pages/Admin/AdminDashboard';
+import ScrollTop from './components/ScrollTop';
 
 const App = () => {
   return (
     <Router>
       <Header />
+      <ScrollTop />
       <ContextProvider>
         <Routes>
 

@@ -1,10 +1,22 @@
 import React from 'react';
+import BottomNevigation from '../components/BottomNevigation';
+import { useNavigate } from 'react-router-dom';
 
 const Skills = () => {
+    const navigate = useNavigate();
+    const handleLeftClick = () => {
+
+        navigate('/project')
+    };
+
+    const handleRightClick = () => {
+
+        navigate('/about')
+    };
     return (
         <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 text-white py-10">
             <div className="max-w-5xl mx-auto animate-fade-up animate-once animate-duration-[1000ms] animate-delay-100 animate-ease-in-out">
-                <h1 className="text-4xl font-bold text-center mb-10">My Frontend Skills</h1>
+                <h1 className="text-3xl font-bold text-center mb-10">My Frontend Skills</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 animate-fade-right animate-once animate-duration-[1000ms] animate-delay-600 animate-ease-in-out">
                     <div className="bg-gradient-to-r from-slate-900 to-slate-700 p-8 rounded-lg shadow-lg">
                         <h2 className="text-3xl font-semibold mb-6">React Development</h2>
@@ -61,6 +73,10 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+            <div className='md:hidden pt-4'><BottomNevigation
+                onLeftClick={handleLeftClick}
+                onRightClick={handleRightClick}
+            /></div>
         </div>
     );
 }

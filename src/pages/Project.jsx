@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
-
 import Item from '../components/Item'
 import { Context } from '../Context/Context'
+import BottomNevigation from '../components/BottomNevigation';
+import { useNavigate } from 'react-router-dom';
 
 const Project = () => {
     const { documents } = useContext(Context)
@@ -10,6 +11,16 @@ const Project = () => {
 
         return <p className='text-center text-red-500'>Loading...</p>;
     }
+    const navigate = useNavigate();
+    const handleLeftClick = () => {
+
+        navigate('/')
+    };
+
+    const handleRightClick = () => {
+
+        navigate('/skills')
+    };
 
 
     return (
@@ -25,6 +36,10 @@ const Project = () => {
 
 
             </div>
+            <div className='md:hidden'><BottomNevigation
+                onLeftClick={handleLeftClick}
+                onRightClick={handleRightClick}
+            /></div>
         </div>
     )
 }
